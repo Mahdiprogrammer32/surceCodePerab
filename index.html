@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>صفحه من</title>
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#1976d2">
+
+</head>
+<body>
+
+
+
+
+
+
+
+  <button id="installBtn" style="display: none;">نصب اپلیکیشن</button>
+
+<script>
+  let deferredPrompt;
+  const installBtn = document.getElementById('installBtn');
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    installBtn.style.display = 'block';
+
+    installBtn.addEventListener('click', () => {
+      installBtn.style.display = 'none';
+      deferredPrompt.prompt();
+
+      deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('نصب اپلیکیشن تأیید شد!');
+        } else {
+          console.log('نصب رد شد.');
+        }
+        deferredPrompt = null;
+      });
+    });
+  });
+</script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('Service Worker ثبت شد با scope:', registration.scope);
+          })
+          .catch(error => {
+            console.error('خطا در ثبت Service Worker:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html>

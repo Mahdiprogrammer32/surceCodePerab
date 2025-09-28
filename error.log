@@ -1,0 +1,29 @@
+[02-Jul-2025 11:59:01 Asia/Tehran] PHP Warning:  Undefined array key "user_data" in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 11:59:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 11:59:01 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:38) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 11:59:53 Asia/Tehran] PHP Warning:  Undefined array key "user_data" in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 11:59:53 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 11:59:53 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:38) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:01:33 Asia/Tehran] PHP Warning:  Undefined array key "user_data" in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 12:01:33 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 12:01:33 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:38) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:02:31 Asia/Tehran] PHP Warning:  Undefined array key "user_data" in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 12:02:31 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 12:02:31 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:38) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:02:42 Asia/Tehran] PHP Warning:  Undefined array key "user_data" in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 12:02:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 12:02:44 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:38) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:03:19 Asia/Tehran] PHP Warning:  Undefined variable $user_id in /home3/fixwbcsq/public_html/index.php on line 49
+[02-Jul-2025 12:03:19 Asia/Tehran] PHP Warning:  Undefined variable $user_id in /home3/fixwbcsq/public_html/index.php on line 52
+[02-Jul-2025 12:03:19 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:49) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:03:24 Asia/Tehran] PHP Warning:  Undefined variable $user_id in /home3/fixwbcsq/public_html/index.php on line 49
+[02-Jul-2025 12:03:24 Asia/Tehran] PHP Warning:  Undefined variable $user_id in /home3/fixwbcsq/public_html/index.php on line 52
+[02-Jul-2025 12:03:24 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:49) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:04:22 Asia/Tehran] PHP Warning:  Undefined array key "user_id" in /home3/fixwbcsq/public_html/index.php on line 38
+[02-Jul-2025 12:04:22 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:38) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:09:04 Asia/Tehran] PHP Warning:  Undefined array key "userID" in /home3/fixwbcsq/public_html/index.php on line 34
+[02-Jul-2025 12:09:04 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:34) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:09:45 Asia/Tehran] PHP Warning:  Undefined array key "userID" in /home3/fixwbcsq/public_html/index.php on line 34
+[02-Jul-2025 12:09:45 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:34) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
+[02-Jul-2025 12:14:23 Asia/Tehran] PHP Warning:  Undefined array key "userID" in /home3/fixwbcsq/public_html/index.php on line 34
+[02-Jul-2025 12:14:23 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/fixwbcsq/public_html/index.php:34) in /home3/fixwbcsq/public_html/require_once/menu.php on line 7
